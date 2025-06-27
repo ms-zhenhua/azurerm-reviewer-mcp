@@ -1,0 +1,27 @@
+{
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "github-token",
+            "description": "github token for azurerm code reviewer MCP",
+            "password": true
+        }
+    ],
+    "servers": {
+        "azurerm-code-reviewer-mcp": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "--directory",
+                "D:\\code\\code_review\\azurerm-reviewer-mcp",
+                "run",
+                "server.py",
+            ],
+            "env": {
+                "GITHUB_TOKEN": "${input:github-token}",
+                "MAX_TOKENS": 200000,
+                "RESULT_DIRECTORY": "${workspaceFolder}/review_results",
+            }
+        }
+    }
+}
