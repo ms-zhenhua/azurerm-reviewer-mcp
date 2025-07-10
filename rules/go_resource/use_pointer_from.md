@@ -1,4 +1,4 @@
-`pointer.From` returns the dereferenced value or zero if the pointer is `nil`. Use it instead of manual `nil` checks.
+`pointer.From` returns the dereferenced value or zero if the pointer is `nil`. Use `pointer.From` instead of manual `nil` checks.
 
 ### good:
 ```go
