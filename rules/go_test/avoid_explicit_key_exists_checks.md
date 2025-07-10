@@ -1,4 +1,4 @@
-Avoid explicit `Key().Exists()` checks in acceptance tests. The existence of keys is typically verified implicitly through other test operations and resource state validation.
+Avoid explicit `Key().Exists()` checks in acceptance tests unless the checked field is set `Computed: true`.
 
 ### good:
 ```go
