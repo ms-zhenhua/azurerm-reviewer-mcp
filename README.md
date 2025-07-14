@@ -112,7 +112,7 @@ Analyze entire pull requests from GitHub repositories.
 
    ![Input PR Link](./images/input_pr_link.png)
 
-4. **Start Review**: Send the prompt to begin the automated review
+4. **Start Review**: Send the prompt to begin the automated review until the final result is generated in `review_result.md`.
 
    ![Run PR Review](./images/run_pr_review.png)
 
@@ -129,17 +129,9 @@ Analyze individual files on your local system.
 
    ![Input File Path](./images/input_file_path.png)
 
-4. **Start Review**: Send the prompt to begin the file analysis
+4. **Start Review**: Send the prompt to begin the file analysis until the final result is generated in `review_result.md`.
 
    ![Run File Review](./images/run_file_review.png)
-
-## Features
-
-- **Automated Code Review**: Analyzes Terraform azurerm provider code for common issues
-- **Pull Request Integration**: Direct integration with GitHub pull requests
-- **Local File Analysis**: Review individual files without committing to version control
-- **VS Code Integration**: Seamless integration through the Model Context Protocol
-- **Customizable Rules**: Extensible rule set for different review criteria
 
 ## Contributing
 
