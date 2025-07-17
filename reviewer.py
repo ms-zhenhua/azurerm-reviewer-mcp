@@ -114,7 +114,7 @@ def create_review_task(files: list[FileToReview]) -> str:
 
         idx += 1
     
-    return f"Repeatedly get next review task with task_id={task_id} and complete the given task until there are no more tasks."
+    return f"Repeatedly invoke #{get_next_review_task.__name__} with task_id={task_id} and complete the given task until there are no more tasks."
 
    
 def get_next_review_task(task_id: str) -> str:
