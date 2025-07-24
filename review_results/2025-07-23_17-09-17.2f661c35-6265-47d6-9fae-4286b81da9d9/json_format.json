@@ -1,0 +1,8 @@
+[
+    {
+        "rule": "array_dictionary_init_with_make",
+        "file": "/home/user/code/review/test/test.go",
+        "line": 123,
+        "message": "array and dictionary should be initialized with make..."
+    }
+]
