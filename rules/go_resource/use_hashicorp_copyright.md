@@ -1,8 +1,8 @@
-if a copyright header exists, it must be the HashiCorp copyright.
+if a copyright header exists, it must be the IBM copyright.
 
 ### good:
 ```go
-// Copyright (c) HashiCorp, Inc.
+// Copyright IBM Corp. 2014, 2025
 // SPDX-License-Identifier: MPL-2.0
 
 package example
